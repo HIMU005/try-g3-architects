@@ -81,18 +81,24 @@
   .team-container {
       display: flex;
       align-items: center;
+      justify-content: space-between;
   }
 
   .team-image-container {
       display: grid;
+      width: 47%;
       grid-template-columns: repeat(2, 1fr);
       gap: 1.5rem;
       /* grid-template-rows: repeat(2, 1fr); */
   }
+  .team-image-container img{
+    width: 100%;
+  }
+
 
   .team-content {
-      padding-left: 70px;
-      padding-right: 70px;
+      margin: 0px aut0;
+      width: 47%;
   }
 
   .first {
@@ -124,7 +130,6 @@
 
   .fact-cart-container .card {
       border-radius: 8px;
-      border: 1px solid #FF900E;
       text-align: center;
       /* width: 240px;
       height: 240px; */
@@ -166,6 +171,8 @@
 
   .feature {
       display: flex;
+      justify-content: space-between;
+      width: 90%;
   }
 
   .item {
@@ -177,12 +184,12 @@
   }
 
   .feature .banner-title {
-      border-left: 5px solid #FF900E;
       text-align: left;
       margin-left: 90px;
   }
   .feature-img img{
     height: 90%;
+    width: 100%;
     padding-left: 50px;
   }
 
